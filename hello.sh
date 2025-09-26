@@ -23,6 +23,6 @@ def say_hello():
 
 @app.route('/contact')
 def say_hello():
-	return '<p>Email: c22455366@mytudublin.ie</p>'
+	return '<p>Email: C22455366@mytudublin.ie</p>'
 script
 flask --app hello run --host=0.0.0.0
