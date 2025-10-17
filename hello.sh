@@ -2,7 +2,7 @@
 
 sudo apt -y update && sudo apt -y upgrade
 sudo apt -y install nano vim python-is-python3
-sudo apt -y install python3-venv python3-pi
+sudo apt -y install python3-venv python3-pip
 python -m venv .my_venv
 source .my_venv/bin/activate
 pip install flask
@@ -25,4 +25,4 @@ def say_hello():
 def say_hello():
 	return '<p>Email: C22455366@mytudublin.ie</p>'
 script
-flask --app hello run --host=0.0.0.0
+
