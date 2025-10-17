@@ -18,5 +18,5 @@ def about():
     '''
     
 @app.route('/contact')
-def say_hello():
+def contact():
 	return '<p>Email: C22455366@mytudublin.ie</p>'
